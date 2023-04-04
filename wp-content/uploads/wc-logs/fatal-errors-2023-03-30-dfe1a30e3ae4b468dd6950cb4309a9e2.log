@@ -1,0 +1,44 @@
+2023-03-30T11:31:35+00:00 CRITICAL Uncaught Error: Undefined constant "STYLESHEETPATH" in C:\xampp\htdocs\woocommerce\wp-includes\template.php:705
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\xoo-framework\class-xoo-helper.php(74): locate_template(Array)
+#1 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\xoo-framework\class-xoo-helper.php(42): Xoo_Helper->locate_template('/global/inline-...', '')
+#2 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\class-xoo-el-frontend.php(43): Xoo_Helper->get_template('/global/inline-...')
+#3 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): Xoo_El_Frontend->enqueue_styles('')
+#4 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woocommerce\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#7 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#8 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#9 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#10 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\woocommerce\wp-settings.php(555): do_action('setup_theme')
+#13 C:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\woocommerce\wp-includes\template.php on line 705
+
+2023-03-30T14:47:25+00:00 CRITICAL Uncaught Error: Undefined constant "STYLESHEETPATH" in C:\xampp\htdocs\woocommerce\wp-includes\template.php:705
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\xoo-framework\class-xoo-helper.php(74): locate_template(Array)
+#1 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\xoo-framework\class-xoo-helper.php(42): Xoo_Helper->locate_template('/global/inline-...', '')
+#2 C:\xampp\htdocs\woocommerce\wp-content\plugins\easy-login-woocommerce\includes\class-xoo-el-frontend.php(43): Xoo_Helper->get_template('/global/inline-...')
+#3 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): Xoo_El_Frontend->enqueue_styles('')
+#4 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woocommerce\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#7 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#8 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#9 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#10 C:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\woocommerce\wp-settings.php(555): do_action('setup_theme')
+#13 C:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\woocommerce\wp-includes\template.php on line 705
+
